@@ -5,15 +5,15 @@ refreshFrequency: 3600000 # 60 minutes by default
 
 style: """
   // Position the widget on your screen
-  top 100px
-  left 10px
+  top:100px
+  right:10px
 
   // Change the style of the widget
-  color #fff
-  font-family Helvetica Neue
-  background rgba(#000, .5)
-  padding 10px 10px 5px
-  border-radius 5px
+  color:#fff
+  font-family:Helvetica Neue
+  background:rgba(#000, .5)
+  padding:10px 10px 5px
+  border-radius:5px
 
   .container
     position: relative
@@ -21,7 +21,7 @@ style: """
 
   .list
     padding-top: 3px
-    width=100%
+    width:100%
     
   .list-item
     font-size: 8px
@@ -30,9 +30,9 @@ style: """
     text-shadow: 0 1px 0px rgba(#000, .7)
 
   .widget-title
-    font-size 10px
-    text-transform uppercase
-    font-weight bold
+    font-size:10px
+    text-transform:uppercase
+    font-weight:bold
 """
 
 render: -> """
