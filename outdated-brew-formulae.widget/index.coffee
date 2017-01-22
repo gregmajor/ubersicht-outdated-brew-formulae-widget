@@ -1,4 +1,4 @@
-command: "/usr/local/bin/brew update > /dev/null && sleep 2s && /usr/local/bin/brew outdated"
+command: "pgrep ruby || /usr/local/bin/brew update > /dev/null && sleep 2s && pgrep ruby || /usr/local/bin/brew outdated"
 #command: "/usr/local/bin/brew outdated"
 
 refreshFrequency: 3600000 # 60 minutes by default
