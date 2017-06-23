@@ -54,8 +54,8 @@ update: (output, domElement) ->
     item = "<div class=\"list-item\">#{formula}</div>"
     list.append item
   
-  if formulae.length == 0
-    addFormula "No outdated formulae!"
+  for formula, i in formulae
+    if formulae.length == 0
+      addFormula "No outdated formulae!"
   else
-    for formula, i in formulae
-      addFormula formula
+    addFormula formula
